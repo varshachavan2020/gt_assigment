@@ -145,6 +145,12 @@ doc_events = {
 
 fixtures = [
     {
+        "doctype": "Custom DocPerm",
+        "filters": [
+            ["parent", "in", ["Job Applicant"]]
+        ]
+    },
+    {
         "doctype": "Workflow"
     },
 	{
