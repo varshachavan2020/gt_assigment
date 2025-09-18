@@ -161,7 +161,7 @@ fixtures = [
     },
 	{
         "doctype": "Print Format",
-        "filters": [["name", "in", ["Experience Letter"]]]
+        "filters": [["name", "in", ["Experience Letter", "GT Salary Slip Format"]]]
     }
 ]
 
