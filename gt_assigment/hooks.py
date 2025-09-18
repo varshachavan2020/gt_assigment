@@ -147,6 +147,10 @@ fixtures = [
     {
         "doctype": "Workflow"
     },
+	{
+        "doctype": "Print Format",
+        "filters": [["name", "in", ["Experience Letter"]]]
+    }
 ]
 
 # Scheduled Tasks
