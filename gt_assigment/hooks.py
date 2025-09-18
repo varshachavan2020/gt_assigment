@@ -153,10 +153,12 @@ fixtures = [
     {
         "doctype": "Workflow"
     },
-	{
+    {
+        "doctype": "Income Tax Slab"
+    },
         "doctype": "Custom Field",
         "filters": [
-            ["dt", "in", ["Job Applicant",]] 
+            ["dt", "in", ["Job Applicant", "Employee"]] 
         ]
     },
 	{
