@@ -154,6 +154,12 @@ fixtures = [
         "doctype": "Workflow"
     },
 	{
+        "doctype": "Custom Field",
+        "filters": [
+            ["dt", "in", ["Job Applicant",]] 
+        ]
+    },
+	{
         "doctype": "Print Format",
         "filters": [["name", "in", ["Experience Letter"]]]
     }
