@@ -162,6 +162,15 @@ fixtures = [
     {
         "doctype": "Employee Tax Exemption Category"
     },
+    {
+        "doctype": "Dashboard",
+        "filters": [["name", "in", ["Recruitment Status"]]]
+    },
+    {
+		"doctype": "Dashboard Chart",
+		"filters": [["name", "in", ["Applicants / Source"]]]
+	},
+	{
         "doctype": "Custom Field",
         "filters": [
             ["dt", "in", ["Job Applicant", "Employee"]] 
