@@ -1,0 +1,29 @@
+[
+ {
+  "docstatus": 0,
+  "doctype": "Employee Tax Exemption Sub Category",
+  "exemption_category": "87A",
+  "is_active": 1,
+  "max_amount": 100000.0,
+  "modified": "2025-09-16 03:27:57.166813",
+  "name": "Insurance"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Employee Tax Exemption Sub Category",
+  "exemption_category": "87A",
+  "is_active": 1,
+  "max_amount": 100000.0,
+  "modified": "2025-09-16 03:28:28.584088",
+  "name": "PF"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Employee Tax Exemption Sub Category",
+  "exemption_category": "87A",
+  "is_active": 1,
+  "max_amount": 100000.0,
+  "modified": "2025-09-16 03:27:16.373339",
+  "name": "Mutual Fund"
+ }
+]

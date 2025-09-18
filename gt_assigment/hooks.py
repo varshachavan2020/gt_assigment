@@ -156,6 +156,12 @@ fixtures = [
     {
         "doctype": "Income Tax Slab"
     },
+    {
+        "doctype": "Employee Tax Exemption Sub Category"
+    },
+    {
+        "doctype": "Employee Tax Exemption Category"
+    },
         "doctype": "Custom Field",
         "filters": [
             ["dt", "in", ["Job Applicant", "Employee"]] 
