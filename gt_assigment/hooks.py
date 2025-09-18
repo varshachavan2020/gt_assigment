@@ -147,6 +147,12 @@ fixtures = [
     {
         "doctype": "Workflow"
     },
+	{
+        "doctype": "Custom Field",
+        "filters": [
+            ["dt", "in", ["Job Applicant",]] 
+        ]
+    },
 ]
 
 # Scheduled Tasks
