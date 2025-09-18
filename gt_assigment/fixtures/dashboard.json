@@ -1,0 +1,23 @@
+[
+ {
+  "cards": [],
+  "chart_options": null,
+  "charts": [
+   {
+    "chart": "Applicants / Source",
+    "parent": "Recruitment Status",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   }
+  ],
+  "dashboard_name": "Recruitment Status",
+  "docstatus": 0,
+  "doctype": "Dashboard",
+  "is_default": 0,
+  "is_standard": 0,
+  "modified": "2025-09-15 22:22:10.587170",
+  "module": null,
+  "name": "Recruitment Status"
+ }
+]
