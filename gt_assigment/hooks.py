@@ -137,6 +137,12 @@ app_license = "mit"
 # ---------------
 # Hook on document methods and events
 
+doc_events = {
+	"Employee": {
+		"before_save": "gt_assigment.api.employee.before_save"
+	}
+}
+
 fixtures = [
     {
         "doctype": "Custom DocPerm",
@@ -153,6 +159,10 @@ fixtures = [
             ["dt", "in", ["Job Applicant",]] 
         ]
     },
+	{
+        "doctype": "Print Format",
+        "filters": [["name", "in", ["Experience Letter"]]]
+    }
 ]
 
 # Scheduled Tasks
